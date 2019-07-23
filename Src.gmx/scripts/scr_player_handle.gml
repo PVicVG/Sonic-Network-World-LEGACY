@@ -1,0 +1,11 @@
+ scr_character_handle_layers();
+        scr_character_handle_tunnel_locks();
+        scr_character_handle_springs();
+        scr_character_handle_casino_gimmicks();
+        scr_character_handle_bosses();
+        scr_character_handle_watersurface();  
+        scr_character_handle_collapsing_tiles(); 
+        scr_character_handle_platforms();
+        scr_character_handle_launch_sensor();   
+        scr_character_handle_bonus_objects();      
+        scr_player_handle_breaking_walls()
