@@ -292,231 +292,325 @@
     </sprites>
     <sprites name="Gameplay">
       <sprites name="Characters">
-        <sprites name="Sonic the Hedgehog">
-          <sprite>sprites\spr_sonic_idle</sprite>
-          <sprite>sprites\spr_sonic_lookup</sprite>
-          <sprite>sprites\spr_sonic_walk</sprite>
-          <sprite>sprites\spr_sonic_run</sprite>
-          <sprite>sprites\spr_sonic_push</sprite>
-          <sprite>sprites\spr_sonic_skid</sprite>
-          <sprite>sprites\spr_sonic_crouch</sprite>
-          <sprite>sprites\spr_sonic_spindash</sprite>
-          <sprite>sprites\spr_sonic_roll</sprite>
-          <sprite>sprites\spr_sonic_spring</sprite>
-          <sprite>sprites\spr_sonic_edge_balance</sprite>
-          <sprite>sprites\spr_sonic_breath</sprite>
-          <sprite>sprites\spr_sonic_goal</sprite>
-          <sprite>sprites\spr_sonic_goal_finish</sprite>
-          <sprite>sprites\spr_sonic_hurt</sprite>
-          <sprite>sprites\spr_sonic_die</sprite>
-          <sprite>sprites\spr_sonic_peelout</sprite>
-          <sprite>sprites\spr_sonic_peelout_charge</sprite>
-          <sprite>sprites\spr_sonic_rotation_1</sprite>
-          <sprite>sprites\spr_sonic_drop_dash</sprite>
-          <sprite>sprites\spr_sonic_transform</sprite>
-          <sprite>sprites\spr_sonic_hang</sprite>
-          <sprites name="Super">
-            <sprite>sprites\spr_ssonic_idle</sprite>
-            <sprite>sprites\spr_ssonic_lookup</sprite>
-            <sprite>sprites\spr_ssonic_walk</sprite>
-            <sprite>sprites\spr_ssonic_run</sprite>
-            <sprite>sprites\spr_ssonic_push</sprite>
-            <sprite>sprites\spr_ssonic_skid</sprite>
-            <sprite>sprites\spr_ssonic_crouch</sprite>
-            <sprite>sprites\spr_ssonic_spindash</sprite>
-            <sprite>sprites\spr_ssonic_roll</sprite>
-            <sprite>sprites\spr_ssonic_spring</sprite>
-            <sprite>sprites\spr_ssonic_edge_balance</sprite>
-            <sprite>sprites\spr_ssonic_breath</sprite>
-            <sprite>sprites\spr_ssonic_drop_dash</sprite>
+        <sprites name="Default Skin">
+          <sprites name="Sonic the Hedgehog">
+            <sprite>sprites\spr_sonic_idle</sprite>
+            <sprite>sprites\spr_sonic_lookup</sprite>
+            <sprite>sprites\spr_sonic_walk</sprite>
+            <sprite>sprites\spr_sonic_run</sprite>
+            <sprite>sprites\spr_sonic_push</sprite>
+            <sprite>sprites\spr_sonic_skid</sprite>
+            <sprite>sprites\spr_sonic_crouch</sprite>
+            <sprite>sprites\spr_sonic_spindash</sprite>
+            <sprite>sprites\spr_sonic_roll</sprite>
+            <sprite>sprites\spr_sonic_spring</sprite>
+            <sprite>sprites\spr_sonic_edge_balance</sprite>
+            <sprite>sprites\spr_sonic_breath</sprite>
+            <sprite>sprites\spr_sonic_goal</sprite>
+            <sprite>sprites\spr_sonic_goal_finish</sprite>
+            <sprite>sprites\spr_sonic_hurt</sprite>
+            <sprite>sprites\spr_sonic_die</sprite>
+            <sprite>sprites\spr_sonic_peelout</sprite>
+            <sprite>sprites\spr_sonic_peelout_charge</sprite>
+            <sprite>sprites\spr_sonic_rotation_1</sprite>
+            <sprite>sprites\spr_sonic_drop_dash</sprite>
+            <sprite>sprites\spr_sonic_transform</sprite>
+            <sprite>sprites\spr_sonic_hang</sprite>
+            <sprites name="Super">
+              <sprite>sprites\spr_ssonic_idle</sprite>
+              <sprite>sprites\spr_ssonic_lookup</sprite>
+              <sprite>sprites\spr_ssonic_walk</sprite>
+              <sprite>sprites\spr_ssonic_run</sprite>
+              <sprite>sprites\spr_ssonic_push</sprite>
+              <sprite>sprites\spr_ssonic_skid</sprite>
+              <sprite>sprites\spr_ssonic_crouch</sprite>
+              <sprite>sprites\spr_ssonic_spindash</sprite>
+              <sprite>sprites\spr_ssonic_roll</sprite>
+              <sprite>sprites\spr_ssonic_spring</sprite>
+              <sprite>sprites\spr_ssonic_edge_balance</sprite>
+              <sprite>sprites\spr_ssonic_breath</sprite>
+              <sprite>sprites\spr_ssonic_drop_dash</sprite>
+            </sprites>
+            <sprites name="Palettes">
+              <sprite>sprites\spr_sonic_super_palette</sprite>
+              <sprite>sprites\spr_sonic_hyper_palette</sprite>
+              <sprite>sprites\spr_sonic_to_normal_palette</sprite>
+            </sprites>
           </sprites>
-          <sprites name="Palettes">
-            <sprite>sprites\spr_sonic_super_palette</sprite>
-            <sprite>sprites\spr_sonic_hyper_palette</sprite>
-            <sprite>sprites\spr_sonic_to_normal_palette</sprite>
+          <sprites name="Miles 'Tails' Prower">
+            <sprite>sprites\spr_miles_idle</sprite>
+            <sprite>sprites\spr_miles_lookup</sprite>
+            <sprite>sprites\spr_miles_walk</sprite>
+            <sprite>sprites\spr_miles_run</sprite>
+            <sprite>sprites\spr_miles_push</sprite>
+            <sprite>sprites\spr_miles_skid</sprite>
+            <sprite>sprites\spr_miles_crouch</sprite>
+            <sprite>sprites\spr_miles_spindash</sprite>
+            <sprite>sprites\spr_miles_roll</sprite>
+            <sprite>sprites\spr_miles_spring</sprite>
+            <sprite>sprites\spr_miles_edge_balance</sprite>
+            <sprite>sprites\spr_miles_breath</sprite>
+            <sprite>sprites\spr_miles_fly</sprite>
+            <sprite>sprites\spr_miles_fly_exhausted</sprite>
+            <sprite>sprites\spr_miles_swim</sprite>
+            <sprite>sprites\spr_miles_swim_exhausted</sprite>
+            <sprite>sprites\spr_miles_goal</sprite>
+            <sprite>sprites\spr_miles_hurt</sprite>
+            <sprite>sprites\spr_miles_die</sprite>
+            <sprite>sprites\spr_miles_transform</sprite>
+            <sprite>sprites\spr_super_flicky</sprite>
+            <sprites name="Tail Parts">
+              <sprite>sprites\spr_miles_tail_1</sprite>
+              <sprite>sprites\spr_miles_tail_2</sprite>
+              <sprite>sprites\spr_miles_tail_3</sprite>
+              <sprite>sprites\spr_miles_tail_4</sprite>
+              <sprite>sprites\spr_miles_tail_5</sprite>
+            </sprites>
+            <sprites name="Palettes">
+              <sprite>sprites\spr_tails_super_palette</sprite>
+              <sprite>sprites\spr_tails_to_normal_palette</sprite>
+              <sprite>sprites\spr_super_flicky_palette</sprite>
+            </sprites>
+          </sprites>
+          <sprites name="Knuckles the Enchilada">
+            <sprite>sprites\spr_knuckles_idle</sprite>
+            <sprite>sprites\spr_knuckles_lookup</sprite>
+            <sprite>sprites\spr_knuckles_walk</sprite>
+            <sprite>sprites\spr_knuckles_run</sprite>
+            <sprite>sprites\spr_knuckles_push</sprite>
+            <sprite>sprites\spr_knuckles_skid</sprite>
+            <sprite>sprites\spr_knuckles_crouch</sprite>
+            <sprite>sprites\spr_knuckles_spindash</sprite>
+            <sprite>sprites\spr_knuckles_roll</sprite>
+            <sprite>sprites\spr_knuckles_glide</sprite>
+            <sprite>sprites\spr_knuckles_glide_drop</sprite>
+            <sprite>sprites\spr_knuckles_slide</sprite>
+            <sprite>sprites\spr_knuckles_climb</sprite>
+            <sprite>sprites\spr_knuckles_ledge</sprite>
+            <sprite>sprites\spr_knuckles_spring</sprite>
+            <sprite>sprites\spr_knuckles_edge_balance</sprite>
+            <sprite>sprites\spr_knuckles_breath</sprite>
+            <sprite>sprites\spr_knuckles_hurt</sprite>
+            <sprite>sprites\spr_knuckles_die</sprite>
+            <sprite>sprites\spr_knuckles_goal</sprite>
+            <sprite>sprites\spr_knuckles_transform</sprite>
+            <sprites name="Palettes">
+              <sprite>sprites\spr_knuckles_hyper_palette</sprite>
+              <sprite>sprites\spr_knuckles_to_normal_palette</sprite>
+            </sprites>
+          </sprites>
+          <sprites name="Amy Rose">
+            <sprite>sprites\spr_amy_idle</sprite>
+            <sprite>sprites\spr_amy_lookup</sprite>
+            <sprite>sprites\spr_amy_walk</sprite>
+            <sprite>sprites\spr_amy_run</sprite>
+            <sprite>sprites\spr_amy_push</sprite>
+            <sprite>sprites\spr_amy_skid</sprite>
+            <sprite>sprites\spr_amy_crouch</sprite>
+            <sprite>sprites\spr_amy_jump</sprite>
+            <sprite>sprites\spr_amy_roll</sprite>
+            <sprite>sprites\spr_amy_spring</sprite>
+            <sprite>sprites\spr_amy_hammer_punch</sprite>
+            <sprite>sprites\spr_amy_hammer_air_punch</sprite>
+            <sprite>sprites\spr_amy_hammer_spin</sprite>
+            <sprite>sprites\spr_amy_edge_balance</sprite>
+            <sprite>sprites\spr_amy_breath</sprite>
+            <sprite>sprites\spr_amy_goal</sprite>
+            <sprite>sprites\spr_amy_hurt</sprite>
+            <sprite>sprites\spr_amy_die</sprite>
+            <sprite>sprites\spr_amy_hang</sprite>
+          </sprites>
+          <sprites name="Metal Sonic">
+            <sprite>sprites\spr_metal_breath</sprite>
+            <sprite>sprites\spr_metal_crouch</sprite>
+            <sprite>sprites\spr_metal_die</sprite>
+            <sprite>sprites\spr_metal_hang</sprite>
+            <sprite>sprites\spr_metal_hurt</sprite>
+            <sprite>sprites\spr_metal_idle</sprite>
+            <sprite>sprites\spr_metal_lookup</sprite>
+            <sprite>sprites\spr_metal_push</sprite>
+            <sprite>sprites\spr_metal_roll</sprite>
+            <sprite>sprites\spr_metal_rotation_1</sprite>
+            <sprite>sprites\spr_metal_run</sprite>
+            <sprite>sprites\spr_metal_skid</sprite>
+            <sprite>sprites\spr_metal_spring</sprite>
+            <sprite>sprites\spr_metal_walk</sprite>
+          </sprites>
+          <sprites name="Shadow">
+            <sprite>sprites\spr_shadow_idle</sprite>
+            <sprite>sprites\spr_shadow_spring</sprite>
+            <sprite>sprites\spr_shadow_walk</sprite>
+            <sprite>sprites\spr_shadow_crouch</sprite>
+            <sprite>sprites\spr_shadow_spindash</sprite>
+            <sprite>sprites\spr_shadow_run</sprite>
+            <sprite>sprites\spr_shadow_corckscrew</sprite>
+            <sprite>sprites\spr_shadow_hurt</sprite>
+            <sprite>sprites\spr_shadow_peelout</sprite>
+            <sprite>sprites\spr_shadow_breath</sprite>
+            <sprite>sprites\spr_shadow_edge_balance</sprite>
+            <sprite>sprites\spr_shadow_jump</sprite>
+            <sprite>sprites\spr_shadow_skid</sprite>
+            <sprite>sprites\spr_shadow_die</sprite>
+            <sprite>sprites\spr_shadow_push</sprite>
+          </sprites>
+          <sprites name="Modern">
+            <sprite>sprites\spr_modern_idle</sprite>
+            <sprite>sprites\spr_modern_lookup</sprite>
+            <sprite>sprites\spr_modern_crouch</sprite>
+            <sprite>sprites\spr_modern_walk</sprite>
+            <sprite>sprites\spr_modern_run</sprite>
+            <sprite>sprites\spr_modern_peelout</sprite>
+            <sprite>sprites\spr_modern_roll</sprite>
+            <sprite>sprites\spr_modern_spring</sprite>
+            <sprite>sprites\spr_modern_spindash</sprite>
+            <sprite>sprites\spr_modern_hurt</sprite>
+            <sprite>sprites\spr_modern_death</sprite>
+            <sprite>sprites\spr_modern_skid</sprite>
+            <sprite>sprites\spr_modern_edgebalance</sprite>
+          </sprites>
+          <sprites name="Robotnik">
+            <sprite>sprites\spr_robotnik_idle</sprite>
+            <sprite>sprites\spr_robotnik_charge</sprite>
+            <sprite>sprites\spr_robotnik_walk</sprite>
+            <sprite>sprites\spr_robotnik_jump</sprite>
+            <sprite>sprites\spr_robotnik_fly</sprite>
+            <sprite>sprites\spr_robotnik_fly_tired</sprite>
+          </sprites>
+          <sprites name="Mighty">
+            <sprite>sprites\spr_mighty_breath</sprite>
+            <sprite>sprites\spr_mighty_crouch</sprite>
+            <sprite>sprites\spr_mighty_die</sprite>
+            <sprite>sprites\spr_mighty_hang</sprite>
+            <sprite>sprites\spr_mighty_hurt</sprite>
+            <sprite>sprites\spr_mighty_idle</sprite>
+            <sprite>sprites\spr_mighty_lookup</sprite>
+            <sprite>sprites\spr_mighty_push</sprite>
+            <sprite>sprites\spr_mighty_roll</sprite>
+            <sprite>sprites\spr_mighty_hammerdrop</sprite>
+            <sprite>sprites\spr_mighty_rotation_1</sprite>
+            <sprite>sprites\spr_mighty_run</sprite>
+            <sprite>sprites\spr_mighty_skid</sprite>
+            <sprite>sprites\spr_mighty_spindash</sprite>
+            <sprite>sprites\spr_mighty_spring</sprite>
+            <sprite>sprites\spr_mighty_walk</sprite>
           </sprites>
         </sprites>
-        <sprites name="Miles 'Tails' Prower">
-          <sprite>sprites\spr_miles_idle</sprite>
-          <sprite>sprites\spr_miles_lookup</sprite>
-          <sprite>sprites\spr_miles_walk</sprite>
-          <sprite>sprites\spr_miles_run</sprite>
-          <sprite>sprites\spr_miles_push</sprite>
-          <sprite>sprites\spr_miles_skid</sprite>
-          <sprite>sprites\spr_miles_crouch</sprite>
-          <sprite>sprites\spr_miles_spindash</sprite>
-          <sprite>sprites\spr_miles_roll</sprite>
-          <sprite>sprites\spr_miles_spring</sprite>
-          <sprite>sprites\spr_miles_edge_balance</sprite>
-          <sprite>sprites\spr_miles_breath</sprite>
-          <sprite>sprites\spr_miles_fly</sprite>
-          <sprite>sprites\spr_miles_fly_exhausted</sprite>
-          <sprite>sprites\spr_miles_swim</sprite>
-          <sprite>sprites\spr_miles_swim_exhausted</sprite>
-          <sprite>sprites\spr_miles_goal</sprite>
-          <sprite>sprites\spr_miles_hurt</sprite>
-          <sprite>sprites\spr_miles_die</sprite>
-          <sprite>sprites\spr_miles_transform</sprite>
-          <sprite>sprites\spr_super_flicky</sprite>
-          <sprites name="Tail Parts">
-            <sprite>sprites\spr_miles_tail_1</sprite>
-            <sprite>sprites\spr_miles_tail_2</sprite>
-            <sprite>sprites\spr_miles_tail_3</sprite>
-            <sprite>sprites\spr_miles_tail_4</sprite>
-            <sprite>sprites\spr_miles_tail_5</sprite>
+        <sprites name="S3K Skin">
+          <sprites name="S3 Sonic">
+            <sprite>sprites\spr_sonic_breath_new</sprite>
+            <sprite>sprites\spr_sonic_crouch_new</sprite>
+            <sprite>sprites\spr_sonic_die_new</sprite>
+            <sprite>sprites\spr_sonic_drop_dash_new</sprite>
+            <sprite>sprites\spr_sonic_edge_balance_new</sprite>
+            <sprite>sprites\spr_sonic_goal_new</sprite>
+            <sprite>sprites\spr_sonic_goal_finish_new</sprite>
+            <sprite>sprites\spr_sonic_hang_new</sprite>
+            <sprite>sprites\spr_sonic_hurt_new</sprite>
+            <sprite>sprites\spr_sonic_hyper_palette_new</sprite>
+            <sprite>sprites\spr_sonic_idle_new</sprite>
+            <sprite>sprites\spr_sonic_lookup_new</sprite>
+            <sprite>sprites\spr_sonic_peelout_new</sprite>
+            <sprite>sprites\spr_sonic_push_new</sprite>
+            <sprite>sprites\spr_sonic_roll_new</sprite>
+            <sprite>sprites\spr_sonic_rotation_1_new</sprite>
+            <sprite>sprites\spr_sonic_run_new</sprite>
+            <sprite>sprites\spr_sonic_skid_new</sprite>
+            <sprite>sprites\spr_sonic_spindash_new</sprite>
+            <sprite>sprites\spr_sonic_spring_new</sprite>
+            <sprite>sprites\spr_sonic_super_palette_new</sprite>
+            <sprite>sprites\spr_sonic_to_normal_palette_new</sprite>
+            <sprite>sprites\spr_sonic_tpose</sprite>
+            <sprite>sprites\spr_sonic_transform_new</sprite>
+            <sprite>sprites\spr_sonic_walk_new</sprite>
+            <sprite>sprites\spr_sonic_walk_45</sprite>
+            <sprites name="Misc">
+              <sprites name="Effects">
+                <sprite>sprites\spr_spindash_dust</sprite>
+                <sprite>sprites\spr_skid_dust</sprite>
+                <sprite>sprites\spr_insta_shield</sprite>
+                <sprite>sprites\spr_ultradash_dust</sprite>
+                <sprite>sprites\spr_homing_target</sprite>
+                <sprite>sprites\spr_amy_hearts</sprite>
+              </sprites>
+              <sprites name="Masks">
+                <sprites name="Special Masks">
+                  <sprite>sprites\spr_mask_launch</sprite>
+                  <sprite>sprites\spr_mask_climb_ledge</sprite>
+                </sprites>
+                <sprites name="Collision Related">
+                  <sprite>sprites\spr_mask_block</sprite>
+                  <sprite>sprites\spr_mask_block_small</sprite>
+                  <sprite>sprites\spr_mask_main</sprite>
+                  <sprite>sprites\spr_mask_large</sprite>
+                  <sprite>sprites\spr_mask_big</sprite>
+                  <sprite>sprites\spr_mask_mid</sprite>
+                  <sprite>sprites\spr_mask_small</sprite>
+                  <sprite>sprites\spr_mask_dot</sprite>
+                  <sprite>sprites\spr_mask_lines</sprite>
+                </sprites>
+              </sprites>
+            </sprites>
           </sprites>
-          <sprites name="Palettes">
-            <sprite>sprites\spr_tails_super_palette</sprite>
-            <sprite>sprites\spr_tails_to_normal_palette</sprite>
-            <sprite>sprites\spr_super_flicky_palette</sprite>
-          </sprites>
-        </sprites>
-        <sprites name="Knuckles the Enchilada">
-          <sprite>sprites\spr_knuckles_idle</sprite>
-          <sprite>sprites\spr_knuckles_lookup</sprite>
-          <sprite>sprites\spr_knuckles_walk</sprite>
-          <sprite>sprites\spr_knuckles_run</sprite>
-          <sprite>sprites\spr_knuckles_push</sprite>
-          <sprite>sprites\spr_knuckles_skid</sprite>
-          <sprite>sprites\spr_knuckles_crouch</sprite>
-          <sprite>sprites\spr_knuckles_spindash</sprite>
-          <sprite>sprites\spr_knuckles_roll</sprite>
-          <sprite>sprites\spr_knuckles_glide</sprite>
-          <sprite>sprites\spr_knuckles_glide_drop</sprite>
-          <sprite>sprites\spr_knuckles_slide</sprite>
-          <sprite>sprites\spr_knuckles_climb</sprite>
-          <sprite>sprites\spr_knuckles_ledge</sprite>
-          <sprite>sprites\spr_knuckles_spring</sprite>
-          <sprite>sprites\spr_knuckles_edge_balance</sprite>
-          <sprite>sprites\spr_knuckles_breath</sprite>
-          <sprite>sprites\spr_knuckles_hurt</sprite>
-          <sprite>sprites\spr_knuckles_die</sprite>
-          <sprite>sprites\spr_knuckles_goal</sprite>
-          <sprite>sprites\spr_knuckles_transform</sprite>
-          <sprites name="Palettes">
-            <sprite>sprites\spr_knuckles_hyper_palette</sprite>
-            <sprite>sprites\spr_knuckles_to_normal_palette</sprite>
-          </sprites>
-        </sprites>
-        <sprites name="Amy Rose">
-          <sprite>sprites\spr_amy_idle</sprite>
-          <sprite>sprites\spr_amy_lookup</sprite>
-          <sprite>sprites\spr_amy_walk</sprite>
-          <sprite>sprites\spr_amy_run</sprite>
-          <sprite>sprites\spr_amy_push</sprite>
-          <sprite>sprites\spr_amy_skid</sprite>
-          <sprite>sprites\spr_amy_crouch</sprite>
-          <sprite>sprites\spr_amy_jump</sprite>
-          <sprite>sprites\spr_amy_roll</sprite>
-          <sprite>sprites\spr_amy_spring</sprite>
-          <sprite>sprites\spr_amy_hammer_punch</sprite>
-          <sprite>sprites\spr_amy_hammer_air_punch</sprite>
-          <sprite>sprites\spr_amy_hammer_spin</sprite>
-          <sprite>sprites\spr_amy_edge_balance</sprite>
-          <sprite>sprites\spr_amy_breath</sprite>
-          <sprite>sprites\spr_amy_goal</sprite>
-          <sprite>sprites\spr_amy_hurt</sprite>
-          <sprite>sprites\spr_amy_die</sprite>
-          <sprite>sprites\spr_amy_hang</sprite>
-        </sprites>
-        <sprites name="Effects">
-          <sprite>sprites\spr_spindash_dust</sprite>
-          <sprite>sprites\spr_skid_dust</sprite>
-          <sprite>sprites\spr_insta_shield</sprite>
-          <sprite>sprites\spr_ultradash_dust</sprite>
-          <sprite>sprites\spr_homing_target</sprite>
-          <sprite>sprites\spr_amy_hearts</sprite>
-        </sprites>
-        <sprites name="Masks">
-          <sprites name="Special Masks">
-            <sprite>sprites\spr_mask_launch</sprite>
-            <sprite>sprites\spr_mask_climb_ledge</sprite>
-          </sprites>
-          <sprites name="Collision Related">
-            <sprite>sprites\spr_mask_block</sprite>
-            <sprite>sprites\spr_mask_block_small</sprite>
-            <sprite>sprites\spr_mask_main</sprite>
-            <sprite>sprites\spr_mask_large</sprite>
-            <sprite>sprites\spr_mask_big</sprite>
-            <sprite>sprites\spr_mask_mid</sprite>
-            <sprite>sprites\spr_mask_small</sprite>
-            <sprite>sprites\spr_mask_dot</sprite>
-            <sprite>sprites\spr_mask_lines</sprite>
+          <sprites name="Tails">
+            <sprite>sprites\spr_miles_breath_new</sprite>
+            <sprite>sprites\spr_miles_crouch_new</sprite>
+            <sprite>sprites\spr_miles_die_new</sprite>
+            <sprite>sprites\spr_miles_edge_balance_new</sprite>
+            <sprite>sprites\spr_miles_fly_new</sprite>
+            <sprite>sprites\spr_miles_fly_exhausted_new</sprite>
+            <sprite>sprites\spr_miles_goal_new</sprite>
+            <sprite>sprites\spr_miles_hurt_new</sprite>
+            <sprite>sprites\spr_miles_idle_new</sprite>
+            <sprite>sprites\spr_miles_lookup_new</sprite>
+            <sprite>sprites\spr_miles_push_new</sprite>
+            <sprite>sprites\spr_miles_roll_new</sprite>
+            <sprite>sprites\spr_miles_run_new</sprite>
+            <sprite>sprites\spr_miles_skid_new</sprite>
+            <sprite>sprites\spr_miles_spindash_new</sprite>
+            <sprite>sprites\spr_miles_spring_new</sprite>
+            <sprite>sprites\spr_miles_swim_new</sprite>
+            <sprite>sprites\spr_miles_swim_exhausted_new</sprite>
+            <sprite>sprites\spr_miles_tail_1_new</sprite>
+            <sprite>sprites\spr_miles_tail_2_new</sprite>
+            <sprite>sprites\spr_miles_tail_3_new</sprite>
+            <sprite>sprites\spr_miles_tail_4_new</sprite>
+            <sprite>sprites\spr_miles_tail_5_new</sprite>
+            <sprite>sprites\spr_miles_transform_new</sprite>
+            <sprite>sprites\spr_miles_walk_new</sprite>
           </sprites>
         </sprites>
-        <sprites name="Mighty">
-          <sprite>sprites\spr_mighty_breath</sprite>
-          <sprite>sprites\spr_mighty_crouch</sprite>
-          <sprite>sprites\spr_mighty_die</sprite>
-          <sprite>sprites\spr_mighty_hang</sprite>
-          <sprite>sprites\spr_mighty_hurt</sprite>
-          <sprite>sprites\spr_mighty_idle</sprite>
-          <sprite>sprites\spr_mighty_lookup</sprite>
-          <sprite>sprites\spr_mighty_push</sprite>
-          <sprite>sprites\spr_mighty_roll</sprite>
-          <sprite>sprites\spr_mighty_hammerdrop</sprite>
-          <sprite>sprites\spr_mighty_rotation_1</sprite>
-          <sprite>sprites\spr_mighty_run</sprite>
-          <sprite>sprites\spr_mighty_skid</sprite>
-          <sprite>sprites\spr_mighty_spindash</sprite>
-          <sprite>sprites\spr_mighty_spring</sprite>
-          <sprite>sprites\spr_mighty_walk</sprite>
-        </sprites>
-        <sprites name="Metal Sonic">
-          <sprite>sprites\spr_metal_breath</sprite>
-          <sprite>sprites\spr_metal_crouch</sprite>
-          <sprite>sprites\spr_metal_die</sprite>
-          <sprite>sprites\spr_metal_hang</sprite>
-          <sprite>sprites\spr_metal_hurt</sprite>
-          <sprite>sprites\spr_metal_idle</sprite>
-          <sprite>sprites\spr_metal_lookup</sprite>
-          <sprite>sprites\spr_metal_push</sprite>
-          <sprite>sprites\spr_metal_roll</sprite>
-          <sprite>sprites\spr_metal_rotation_1</sprite>
-          <sprite>sprites\spr_metal_run</sprite>
-          <sprite>sprites\spr_metal_skid</sprite>
-          <sprite>sprites\spr_metal_spring</sprite>
-          <sprite>sprites\spr_metal_walk</sprite>
-        </sprites>
-        <sprites name="Shadow">
-          <sprite>sprites\spr_shadow_idle</sprite>
-          <sprite>sprites\spr_shadow_spring</sprite>
-          <sprite>sprites\spr_shadow_walk</sprite>
-          <sprite>sprites\spr_shadow_crouch</sprite>
-          <sprite>sprites\spr_shadow_spindash</sprite>
-          <sprite>sprites\spr_shadow_run</sprite>
-          <sprite>sprites\spr_shadow_corckscrew</sprite>
-          <sprite>sprites\spr_shadow_hurt</sprite>
-          <sprite>sprites\spr_shadow_peelout</sprite>
-          <sprite>sprites\spr_shadow_breath</sprite>
-          <sprite>sprites\spr_shadow_edge_balance</sprite>
-          <sprite>sprites\spr_shadow_jump</sprite>
-          <sprite>sprites\spr_shadow_skid</sprite>
-          <sprite>sprites\spr_shadow_die</sprite>
-          <sprite>sprites\spr_shadow_push</sprite>
-        </sprites>
-        <sprites name="Modern">
-          <sprite>sprites\spr_modern_idle</sprite>
-          <sprite>sprites\spr_modern_lookup</sprite>
-          <sprite>sprites\spr_modern_crouch</sprite>
-          <sprite>sprites\spr_modern_walk</sprite>
-          <sprite>sprites\spr_modern_run</sprite>
-          <sprite>sprites\spr_modern_peelout</sprite>
-          <sprite>sprites\spr_modern_roll</sprite>
-          <sprite>sprites\spr_modern_spring</sprite>
-          <sprite>sprites\spr_modern_spindash</sprite>
-          <sprite>sprites\spr_modern_hurt</sprite>
-          <sprite>sprites\spr_modern_death</sprite>
-          <sprite>sprites\spr_modern_skid</sprite>
-          <sprite>sprites\spr_modern_edgebalance</sprite>
-        </sprites>
-        <sprites name="Robotnik">
-          <sprite>sprites\spr_robotnik_idle</sprite>
-          <sprite>sprites\spr_robotnik_charge</sprite>
-          <sprite>sprites\spr_robotnik_walk</sprite>
-          <sprite>sprites\spr_robotnik_jump</sprite>
-          <sprite>sprites\spr_robotnik_fly</sprite>
-          <sprite>sprites\spr_robotnik_fly_tired</sprite>
+        <sprites name="SEB Sonic">
+          <sprite>sprites\spr_sonic_idle_new_new</sprite>
+          <sprite>sprites\spr_sonic_breath_new_new</sprite>
+          <sprite>sprites\spr_sonic_crouch_new_new</sprite>
+          <sprite>sprites\spr_sonic_dash</sprite>
+          <sprite>sprites\spr_sonic_die_new_new</sprite>
+          <sprite>sprites\spr_sonic_drop_dash_new_new</sprite>
+          <sprite>sprites\spr_sonic_edge_balance_new_new</sprite>
+          <sprite>sprites\spr_sonic_eye_new</sprite>
+          <sprite>sprites\spr_sonic_fall</sprite>
+          <sprite>sprites\spr_sonic_goal_new_new</sprite>
+          <sprite>sprites\spr_sonic_goal_finish_new_new</sprite>
+          <sprite>sprites\spr_sonic_hang_new_new</sprite>
+          <sprite>sprites\spr_sonic_hurt_new_new</sprite>
+          <sprite>sprites\spr_sonic_hyper_palette_new_new</sprite>
+          <sprite>sprites\spr_sonic_idle_new_new_new</sprite>
+          <sprite>sprites\spr_sonic_lookup_new_new</sprite>
+          <sprite>sprites\spr_sonic_peelout_new_new</sprite>
+          <sprite>sprites\spr_sonic_push_new_new</sprite>
+          <sprite>sprites\spr_sonic_roll_new_new</sprite>
+          <sprite>sprites\spr_sonic_rotation_1_new_new</sprite>
+          <sprite>sprites\spr_sonic_run_new_new</sprite>
+          <sprite>sprites\spr_sonic_skid_new_new</sprite>
+          <sprite>sprites\spr_sonic_spindash_new_new</sprite>
+          <sprite>sprites\spr_sonic_spring_new_new</sprite>
+          <sprite>sprites\spr_sonic_super_palette_new_new</sprite>
+          <sprite>sprites\spr_sonic_to_normal_palette_new_new</sprite>
+          <sprite>sprites\spr_sonic_tpose_new</sprite>
+          <sprite>sprites\spr_sonic_transform_new_new</sprite>
+          <sprite>sprites\spr_sonic_walk_new_new</sprite>
+          <sprite>sprites\spr_sonic_walk_45_new</sprite>
+          <sprite>sprites\spr_sonic_walk3</sprite>
         </sprites>
       </sprites>
       <sprites name="Water">
@@ -526,48 +620,6 @@
         <sprite>sprites\spr_water_bubble</sprite>
         <sprite>sprites\spr_water_bubble_pop</sprite>
         <sprite>sprites\spr_water_countdown</sprite>
-      </sprites>
-      <sprites name="Display">
-        <sprites name="HUD">
-          <sprite>sprites\spr_main_hud</sprite>
-          <sprite>sprites\spr_life_hud</sprite>
-          <sprite>sprites\spr_pause_menu</sprite>
-          <sprite>sprites\sprNetworkTokenDisplay</sprite>
-          <sprite>sprites\sprPauseIcon</sprite>
-        </sprites>
-        <sprites name="Title Card">
-          <sprite>sprites\spr_title_card_banner</sprite>
-          <sprite>sprites\spr_title_card_acts</sprite>
-        </sprites>
-        <sprites name="Results">
-          <sprite>sprites\spr_results_name</sprite>
-          <sprite>sprites\spr_results_through</sprite>
-          <sprite>sprites\spr_results_time</sprite>
-          <sprite>sprites\spr_results_rings</sprite>
-          <sprite>sprites\spr_results_total</sprite>
-          <sprites name="old">
-            <sprite>sprites\spr_results_passed</sprite>
-            <sprite>sprites\spr_results_tally</sprite>
-          </sprites>
-        </sprites>
-        <sprites name="Game Over">
-          <sprite>sprites\spr_game_over</sprite>
-        </sprites>
-        <sprites name="Fonts">
-          <sprite>sprites\spr_font_letters</sprite>
-          <sprite>sprites\spr_font_title_card</sprite>
-          <sprite>sprites\spr_font_life_hud</sprite>
-          <sprite>sprites\spr_font_main_hud</sprite>
-          <sprite>sprites\spr_font_credits</sprite>
-          <sprite>sprites\spr_font_menu</sprite>
-          <sprite>sprites\spr_font_chat</sprite>
-          <sprite>sprites\spr_s2_font</sprite>
-          <sprite>sprites\spr_s2_font_credits</sprite>
-          <sprite>sprites\spr_s2_font_lifes</sprite>
-          <sprite>sprites\spr_s2_font_title_card</sprite>
-          <sprite>sprites\spr_data_font</sprite>
-          <sprite>sprites\spr_font_main</sprite>
-        </sprites>
       </sprites>
       <sprites name="Tilesets">
         <sprites name="Test Zone">
@@ -1461,6 +1513,52 @@
       </sprites>
     </sprites>
     <sprites name="UI">
+      <sprites name="Display">
+        <sprites name="HUD">
+          <sprite>sprites\spr_main_hud</sprite>
+          <sprite>sprites\spr_font_main_hud</sprite>
+          <sprite>sprites\spr_main_hud_new</sprite>
+          <sprite>sprites\spr_font_main_hud_new</sprite>
+          <sprite>sprites\spr_main_hud_new_new</sprite>
+          <sprite>sprites\spr_font_main_hud_new_new</sprite>
+          <sprite>sprites\spr_life_hud</sprite>
+          <sprite>sprites\spr_pause_menu</sprite>
+          <sprite>sprites\sprNetworkTokenDisplay</sprite>
+          <sprite>sprites\sprPauseIcon</sprite>
+        </sprites>
+        <sprites name="Title Card">
+          <sprite>sprites\spr_title_card_banner</sprite>
+          <sprite>sprites\spr_title_card_acts</sprite>
+        </sprites>
+        <sprites name="Results">
+          <sprite>sprites\spr_results_name</sprite>
+          <sprite>sprites\spr_results_through</sprite>
+          <sprite>sprites\spr_results_time</sprite>
+          <sprite>sprites\spr_results_rings</sprite>
+          <sprite>sprites\spr_results_total</sprite>
+          <sprites name="old">
+            <sprite>sprites\spr_results_passed</sprite>
+            <sprite>sprites\spr_results_tally</sprite>
+          </sprites>
+        </sprites>
+        <sprites name="Game Over">
+          <sprite>sprites\spr_game_over</sprite>
+        </sprites>
+        <sprites name="Fonts">
+          <sprite>sprites\spr_font_letters</sprite>
+          <sprite>sprites\spr_font_title_card</sprite>
+          <sprite>sprites\spr_font_life_hud</sprite>
+          <sprite>sprites\spr_font_credits</sprite>
+          <sprite>sprites\spr_font_menu</sprite>
+          <sprite>sprites\spr_font_chat</sprite>
+          <sprite>sprites\spr_s2_font</sprite>
+          <sprite>sprites\spr_s2_font_credits</sprite>
+          <sprite>sprites\spr_s2_font_lifes</sprite>
+          <sprite>sprites\spr_s2_font_title_card</sprite>
+          <sprite>sprites\spr_data_font</sprite>
+          <sprite>sprites\spr_font_main</sprite>
+        </sprites>
+      </sprites>
       <sprite>sprites\spr_highlight</sprite>
       <sprite>sprites\spr_sonicmap_walk</sprite>
       <sprite>sprites\spr_chatbox</sprite>
@@ -1922,9 +2020,13 @@
         <script>scripts\scr_player_handle.gml</script>
         <script>scripts\scr_player_actions.gml</script>
         <scripts name="Character Animation Data">
+          <script>scripts\scr_animation_data.gml</script>
           <script>scripts\scr_animation_data_sonic.gml</script>
+          <script>scripts\scr_animation_data_sonic3.gml</script>
+          <script>scripts\scr_animation_data_soniceb.gml</script>
           <script>scripts\scr_animation_data_supersonic.gml</script>
           <script>scripts\scr_animation_data_tails.gml</script>
+          <script>scripts\scr_animation_data_tails3.gml</script>
           <script>scripts\scr_animation_data_knuckles.gml</script>
           <script>scripts\scr_animation_data_amy.gml</script>
           <script>scripts\scr_animation_data_metal.gml</script>
@@ -1936,7 +2038,6 @@
         <scripts name="Animation">
           <script>scripts\scr_animation_init.gml</script>
           <script>scripts\scr_animation_core.gml</script>
-          <script>scripts\scr_animation_data.gml</script>
           <script>scripts\scr_animation_apply.gml</script>
           <script>scripts\scr_animation_apply_tail.gml</script>
           <script>scripts\scr_animation_direction.gml</script>
@@ -3193,7 +3294,6 @@
         <object>objects\obj_sonic_bullet</object>
       </objects>
     </objects>
-    <objects name="Special"/>
     <object>objects\par_moving_platform</object>
     <object>objects\obj_VMZ_Parallax</object>
     <object>objects\obj_EGZ_parallax</object>
@@ -3252,7 +3352,7 @@
     <room>rooms\rm_flicky_credits</room>
     <room>rooms\rm_test</room>
   </rooms>
-  <constants number="46">
+  <constants number="49">
     <constant name="GameVersion">0.5</constant>
     <constant name="GameTitle">"Sonic Network World - SNL 2"</constant>
     <constant name="ActionNormal">0</constant>
@@ -3299,6 +3399,9 @@
     <constant name="CharacterMetal">7</constant>
     <constant name="CharacterModern">8</constant>
     <constant name="CharacterRobotnik">9</constant>
+    <constant name="SkinNormal">0</constant>
+    <constant name="SkinSonic3">1</constant>
+    <constant name="SkinSonicEB">2</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

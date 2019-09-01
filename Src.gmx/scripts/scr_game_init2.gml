@@ -1,3 +1,4 @@
+global.skin = SkinNormal;
 global.blockon = true //true = red; false = blue;
 global.assets_dir = string(working_directory);
 global.show_names = true;

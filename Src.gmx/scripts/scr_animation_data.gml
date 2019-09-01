@@ -3,8 +3,17 @@
 
   /*** Sonic's Animation:  ***/
   if(CharacterID = CharacterSonic && CharacterState = CharacterNormal){
- 
+    
+  ///Handle Sonic's Normal State Skins
+     
+   ///Default Skin
      scr_animation_data_sonic();
+     
+     if global.skin == SkinSonic3{
+     scr_animation_data_sonic3();}
+     
+      if global.skin == SkinSonicEB{
+     scr_animation_data_soniceb();}
      
   }
   if(CharacterID = CharacterSonic && (CharacterState = CharacterSuper or CharacterState = CharacterHyper)){
@@ -18,6 +27,8 @@
  
      scr_animation_data_tails();
      
+     if global.skin == SkinSonic3{
+     scr_animation_data_tails3();}
   }   
   
   /*** Knuckles Animation: ***/    

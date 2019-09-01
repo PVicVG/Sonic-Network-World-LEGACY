@@ -80,9 +80,15 @@ global.show_names=false;exit;
 }
 
 
-//Display Names
+//Character
 if keyboard_check_pressed((ord("4"))){
-global.main_player.CharacterID = get_integer("Insert character number.",1)
+global.Character_1 = get_integer("Insert character number.",global.main_player.CharacterID);
+global.main_player.CharacterID = global.Character_1;
+}
+
+//Character
+if keyboard_check_pressed((ord("5"))){
+global.skin = get_integer("Insert skin number.",global.skin)
 }
 
 }
